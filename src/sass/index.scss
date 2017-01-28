@@ -49,7 +49,7 @@ ul{
 		img{
 			width:100%;
 		}
-	margin-bottom:-5px;
+	margin-bottom:-2.5px;
 	padding-bottom:0px;
 	}
 }
@@ -78,7 +78,7 @@ ul{
 	}
 }
 
-$mainlist: overview,movie,billboard,detail,media,member;
+$mainlist: overview,movie,billboard,detail,media,reference,member;
 @each $s in $mainlist{
 	.#{$s}{
 		h2{
@@ -118,6 +118,12 @@ $mainlist: overview,movie,billboard,detail,media,member;
 	}
 }
 .media{
+	li{
+		margin-top: 20px;
+		margin-bottom:5px;
+	}
+}
+.reference{
 	li{
 		margin-top: 20px;
 		margin-bottom:5px;
